@@ -21,6 +21,21 @@ L/P INSPECT is a small Python CLI for authorized network audits. It checks selec
 - Optional: Nmap for OS/service fingerprinting
 - Optional: Wireshark or `tshark` for packet capture and analysis
 
+##Kali(debian)
+sudo apt update
+sudo apt install -y git python3 nmap tshark
+
+git clone https://github.com/filipgg718-ship-it/lp-inspect.git
+cd lp-inspect
+
+avaliable options:
+python3 lp_inspect.py --help
+Run it on your local network
+ip -br addr
+ip route
+
+
+
 ## Termux quick start
 
 Install Termux from a trusted source such as F-Droid or the official Termux GitHub releases, then:
